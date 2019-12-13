@@ -8,11 +8,11 @@ a) log(n)
 
 
 b) nlog(n)
-   it loops over n, and inside, the loop is log base 2 of n, and has const time ops inside
+   it loops over n, and inside, the loop is log base 2 of n (j grows as 2^n), and has const time ops inside
 
 
 c) n
-   it runs n times (n == bunnies). Effectively a for loop over n with ears += 2 each loop
+   it runs n times (n == bunnies). Effectively a for loop over n with ears += 2 (O(1)) each loop
 
 ## Exercise II
 

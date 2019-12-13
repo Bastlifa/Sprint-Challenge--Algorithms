@@ -128,21 +128,3 @@ if __name__ == "__main__":
     robot.sort()
     print(robot._list)
 
-    # Grab first item
-    # set light on
-    # def fn:
-    #     if can't move right, compare is none and light is on:
-    #         set light off
-    #     while can move right
-    #         move right
-    #         compare item:
-    #             if larger, equal, or none swap
-    #             if smaller, don't
-
-    #     while can move left and compare not none:
-    #         move left
-    #         compare item:
-    #             if smaller or none, swap
-        
-    
-    #     repeat fn
