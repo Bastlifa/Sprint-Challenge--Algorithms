@@ -3,7 +3,7 @@
 ## Exercise I
 
 a) log(n)
-   it runs log(n) times. Since a_1 is 2a_0 + n^2 for each loop, a is growing at rate 2^n - 1
+   it runs log(n) (base 2) times. Since a_1 is 2*a_0 + n^2 for each loop, a is growing at rate 2^n - 1
    
 
 
