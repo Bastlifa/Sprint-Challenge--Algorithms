@@ -111,7 +111,7 @@ class SortingRobot:
                     self.swap_item()
             while self.can_move_left() and self.compare_item() != None:
                 self.move_left()
-                if self.compare_item() == None or self.compare_item == 1:
+                if self.compare_item() == None or self.compare_item() == 1:
                     self.swap_item()
             while self.light_is_on():
                 sort_inner(self)
