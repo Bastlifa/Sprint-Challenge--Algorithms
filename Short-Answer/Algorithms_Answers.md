@@ -27,7 +27,7 @@ if egg breaks, pick larger half
 if egg doesn't break, pick lower half
 
 repeat process until egg breaks or doesn't, and is 1 higher or lower than
-a floor where it does break, respectively
+a floor where it doesn't break, or does break, respectively
 
 # Pseudocode:
 
