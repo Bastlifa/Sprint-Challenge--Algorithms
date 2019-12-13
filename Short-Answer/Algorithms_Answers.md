@@ -49,3 +49,5 @@ egg_search(n):
             low = mid
 
     return highest_didnt_break
+
+Looks like log(base 2) of n for run times.
