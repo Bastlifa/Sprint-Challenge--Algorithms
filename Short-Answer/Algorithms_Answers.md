@@ -2,8 +2,9 @@
 
 ## Exercise I
 
-a) n^3 
-   it runs n^3 times, performing constant time operation each loop
+a) log(n)
+   it runs log(n) times. Since a_1 is 2a_0 + n^2 for each loop, a is growing at rate 2^n - 1
+   
 
 
 b) nlog(n)
