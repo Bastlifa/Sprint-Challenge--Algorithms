@@ -97,8 +97,25 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-        pass
+        self.swap_item()
+        self.set_light_on()
+        def sort_inner(self):
 
+            if not self.can_move_right() and self.compare_item() == None and self.light_is_on():
+                self.swap_item()
+                self.set_light_off()
+                return
+            while self.can_move_right():
+                self.move_right()
+                if self.compare_item() != -1:
+                    self.swap_item()
+            while self.can_move_left() and self.compare_item() != None:
+                self.move_left()
+                if self.compare_item() == None or self.compare_item() == 1:
+                    self.swap_item()
+            while self.light_is_on():
+                sort_inner(self)
+        sort_inner(self)
 
 if __name__ == "__main__":
     # Test our your implementation from the command line
@@ -110,3 +127,4 @@ if __name__ == "__main__":
 
     robot.sort()
     print(robot._list)
+
